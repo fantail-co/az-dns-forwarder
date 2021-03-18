@@ -1,7 +1,7 @@
-FROM alpine:3.12
+FROM alpine:3.13
 
-LABEL maintainer="nico.meisenzahl@whiteduck.de" \
-org.label-schema.vcs-url="https://github.com/whiteducksoftware/az-dns-forwarder"
+LABEL maintainer="olly@fantail.co" \
+org.label-schema.vcs-url="https://github.com/fantail-co/az-dns-forwarder"
 
 ADD named.conf /etc/bind/
 

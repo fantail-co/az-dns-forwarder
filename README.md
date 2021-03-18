@@ -1,3 +1,5 @@
+This is a fork of [the project from White Duck Software](https://github.com/whiteducksoftware/az-dns-forwarder)
+
 # Containerized Azure DNS Forwarder
 
 > This project is inspired by the [DNS Forwarder VM](https://github.com/Azure/azure-quickstart-templates/tree/master/301-dns-forwarder/). It provides a similar experience for a containerized environment. 
