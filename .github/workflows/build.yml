@@ -14,9 +14,9 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        path: src/
-        registry: ghcr.io
-        repository: whiteducksoftware/az-dns-forwarder/az-dns-forwarder
+        path: /
+        registry: hub.docker.com
+        repository: ollytheninja/az-dns-forwarder
         tags: latest
         tag_with_sha: true
         add_git_labels: true
